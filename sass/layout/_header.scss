@@ -1,0 +1,107 @@
+.header {
+  border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: var(--font-family-secondary);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-accent-primary);
+}
+.logo-accent-header {
+  color: var(--color-accent-secondary);
+}
+.header .logo {
+  margin-right: 93px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.list-nav-header {
+  display: flex;
+}
+.list-nav-header-item {
+  position: relative;
+}
+.list-nav-header-item:not(:last-child) {
+  margin-right: 50px;
+}
+.list-nav-header-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-dark-primary);
+  transition: color 250ms var(--timing-function);
+}
+.list-nav-header-item-link:hover,
+.list-nav-header-item-link:focus,
+.list-nav-header-item-link.current {
+  color: var(--color-accent-primary);
+  transition: color 250ms var(--timing-function);
+}
+.list-nav-header-item-link.current::after {
+  content: "";
+  display: block;
+  justify-content: center;
+  position: absolute;
+  top: 44px;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--color-accent-primary);
+}
+.list-contacts-header {
+  display: flex;
+  margin-left: auto;
+}
+.list-contacts-header-item:not(:last-child) {
+  margin-right: 50px;
+}
+.list-contacts-header-item-link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-main);
+  transition: color 250ms var(--timing-function);
+}
+.list-contacts-header-item-link:hover,
+.list-contacts-header-item-link:focus,
+.list-contacts-header-item-link:hover,
+.list-contacts-header-item-link:focus {
+  color: var(--color-accent-primary);
+  transition: color 250ms var(--timing-function);
+}
+.envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--color-main);
+  transition: fill 250ms var(--timing-function);
+}
+.smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  color: var(--color-main);
+  fill: var(--color-main);
+  transition: color 250ms var(--timing-function);
+  transition: fill 250ms var(--timing-function);
+}
+.list-contacts-header-item-link:hover .envelope,
+.list-contacts-header-item-link:focus .envelope,
+.list-contacts-header-item-link:hover .smartphone,
+.list-contacts-header-item-link:focus .smartphone {
+  fill: var(--color-accent-primary);
+  transition: fill 250ms var(--timing-function);
+}
