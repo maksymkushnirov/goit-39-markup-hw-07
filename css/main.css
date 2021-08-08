@@ -132,8 +132,7 @@ img {
   transition: fill 250ms var(--timing-function);
 }
 
-.link-social:hover,
-.link-social:focus {
+.link-social:hover, .link-social:focus {
   fill: var(--color-white-primary);
   background-color: var(--color-accent-primary);
   transition: fill 250ms var(--timing-function);
@@ -164,14 +163,7 @@ img {
   transition: background-color 250ms var(--timing-function);
 }
 
-.footer-join-list-link-social-link:hover,
-.footer-join-list-link-social-link:focus {
-  background-color: var(--color-accent-primary);
-  transition: background-color 250ms var(--timing-function);
-}
-
-.footer-join-list-link-social-link:hover,
-.footer-join-list-link-social-link:focus {
+.footer-join-list-link-social-link:hover, .footer-join-list-link-social-link:focus {
   background-color: var(--color-accent-primary);
   transition: background-color 250ms var(--timing-function);
 }
@@ -193,8 +185,7 @@ img {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
-  transition: opacity 250ms var(--timing-function),
-    visibility 250ms var(--timing-function);
+  transition: opacity 250ms var(--timing-function), visibility 250ms var(--timing-function);
   transition: background-color 250ms var(--timing-function);
 }
 
@@ -239,8 +230,7 @@ img {
   cursor: pointer;
 }
 
-.button-close:focus,
-.button-close:hover {
+.button-close:focus, .button-close:hover {
   fill: var(--color-accent-primary);
 }
 
@@ -407,12 +397,12 @@ img {
   color: var(--color-accent-primary);
 }
 
-.logo-accent-header {
-  color: var(--color-accent-secondary);
-}
-
 .header .logo {
   margin-right: 93px;
+}
+
+.logo-accent-header {
+  color: var(--color-accent-secondary);
 }
 
 .nav {
@@ -441,9 +431,7 @@ img {
   transition: color 250ms var(--timing-function);
 }
 
-.list-nav-header-item-link:hover,
-.list-nav-header-item-link:focus,
-.list-nav-header-item-link.current {
+.list-nav-header-item-link:hover, .list-nav-header-item-link:focus, .list-nav-header-item-link.current {
   color: var(--color-accent-primary);
   transition: color 250ms var(--timing-function);
 }
@@ -480,10 +468,7 @@ img {
   transition: color 250ms var(--timing-function);
 }
 
-.list-contacts-header-item-link:hover,
-.list-contacts-header-item-link:focus,
-.list-contacts-header-item-link:hover,
-.list-contacts-header-item-link:focus {
+.list-contacts-header-item-link:hover, .list-contacts-header-item-link:focus, .list-contacts-header-item-link:hover, .list-contacts-header-item-link:focus {
   color: var(--color-accent-primary);
   transition: color 250ms var(--timing-function);
 }
@@ -523,11 +508,7 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(
-      var(--color-overlay-primary),
-      var(--color-overlay-primary)
-    ),
-    url(../images/index.html/hero/hero-background.jpg);
+  background-image: linear-gradient(var(--color-overlay-primary), var(--color-overlay-primary)), url(../images/index.html/hero/hero-background.jpg);
 }
 
 .title-section-hero {
@@ -536,10 +517,8 @@ img {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*   text-align: center; */
   color: var(--color-white-primary);
   width: 696px;
-  text-align: center;
   margin: 0 auto;
   margin-bottom: 30px;
 }
@@ -637,8 +616,7 @@ img {
 
 .list-section-team-item {
   background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -691,12 +669,10 @@ img {
   height: inherit;
   border: 1px solid var(--color-icon-primary);
   border-radius: 4px;
-  transition: border 250ms var(--timing-function),
-    fill 250ms var(--timing-function);
+  transition: border 250ms var(--timing-function), fill 250ms var(--timing-function);
 }
 
-.list-section-сlients-item-link:hover,
-.list-section-сlients-item-link:focus {
+.list-section-сlients-item-link:hover, .list-section-сlients-item-link:focus {
   border: 1px solid var(--color-accent-primary);
   fill: var(--color-accent-primary);
   transition: border 250ms var(--timing-function);
@@ -733,14 +709,14 @@ img {
   height: 43.93px;
 }
 
-.list-section-сlients-item-link:hover .client-icon,
-.list-section-сlients-item-link:focus .client-icon {
-  fill: var(--color-accent-primary);
+.client-icon {
+  fill: var(--color-icon-primary);
   transition: fill 250ms var(--timing-function);
 }
 
-.client-icon {
-  fill: var(--color-icon-primary);
+.list-section-сlients-item-link:hover .client-icon,
+.list-section-сlients-item-link:focus .client-icon {
+  fill: var(--color-accent-primary);
   transition: fill 250ms var(--timing-function);
 }
 
@@ -759,18 +735,13 @@ img {
   border: none;
   border-radius: 4px;
   padding: 6px 22px;
-  transition: color 250ms var(--timing-function),
-    background-color 250ms var(--timing-function),
-    box-shadow 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 
-.button-section-examples:hover,
-.button-section-examples:focus,
-.button-section-examples.current {
+.button-section-examples:hover, .button-section-examples:focus, .button-section-examples.current {
   background-color: var(--color-accent-primary);
   color: var(--color-white-primary);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   transition: background-color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
@@ -805,18 +776,10 @@ img {
   transition: box-shadow 250ms var(--timing-function);
 }
 
-.list-section-examples-example-item-link:hover,
-.list-section-examples-example-item-link:focus {
+.list-section-examples-example-item-link:hover, .list-section-examples-example-item-link:focus {
   box-shadow: var(--shadow-section-examples-example-item-hover);
   transition: color 250ms var(--timing-function);
   transition: box-shadow 250ms var(--timing-function);
-}
-
-.list-section-examples-example-item-link:hover
-  .list-section-examples-example-item-box-overlay-text,
-.list-section-examples-example-item-link:focus
-  .list-section-examples-example-item-box-overlay-text {
-  transform: translateY(0);
 }
 
 .list-section-examples-example-item-box-image {
@@ -841,6 +804,11 @@ img {
   transition: color 250ms var(--timing-function);
   transition: background-color 250ms var(--timing-function);
   transition: transform 250ms var(--timing-function);
+}
+
+.list-section-examples-example-item-link:hover .list-section-examples-example-item-box-overlay-text,
+.list-section-examples-example-item-link:focus .list-section-examples-example-item-box-overlay-text {
+  transform: translateY(0);
 }
 
 .list-section-examples-example-item-text {

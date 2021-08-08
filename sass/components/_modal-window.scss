@@ -11,9 +11,9 @@
   transition: background-color 250ms var(--timing-function);
   transition: box-shadow 250ms var(--timing-function);
   transition: transform 250ms var(--timing-function);
-}
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.7);
+  .backdrop.is-hidden & {
+    transform: translate(-50%, -50%) scale(0.7);
+  }
 }
 .button-close {
   position: absolute;
@@ -29,8 +29,8 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
-}
-.button-close:focus,
-.button-close:hover {
-  fill: var(--color-accent-primary);
+  &:focus,
+  &:hover {
+    fill: var(--color-accent-primary);
+  }
 }

@@ -7,9 +7,9 @@
 }
 .list-section-activities-item {
   position: relative;
-}
-.list-section-activities-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .activities-description {
   position: absolute;

@@ -6,9 +6,9 @@
 }
 .list-section-advantages-item {
   width: 270px;
-}
-.list-section-advantages-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .list-section-advantages-item-icon-background {
   display: flex;
